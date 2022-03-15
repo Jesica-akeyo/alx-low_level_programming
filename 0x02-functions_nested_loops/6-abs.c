@@ -7,7 +7,7 @@
  * Return: integer
  */
 
-int _abs(int r);
+int _abs(int r)
 {
 	if (r >= 0)
 	{
