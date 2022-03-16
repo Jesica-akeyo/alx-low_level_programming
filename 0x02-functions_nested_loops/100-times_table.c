@@ -1,13 +1,14 @@
 #include "main.h"
 
 /**
- * print_times_table - print the n times table
- * @n: is the integer to be used for the times table
+ * print_times_table - prints the times table
+ * @n: integer for which the times table will be printed
  *
+ * Description: prints the times table
  * Return: void
  */
 
-void print_times_tables(int n)
+void print_times_table(int n)
 {
 	int row, column, product;
 
@@ -20,7 +21,6 @@ void print_times_tables(int n)
 				product = row * column;
 
 				if (column == 0)
-				{
 					_putchar('0');
 				else if (product < 10)
 				{
@@ -51,3 +51,5 @@ void print_times_tables(int n)
 		}
 	}
 }
+
+
