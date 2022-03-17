@@ -9,19 +9,25 @@
 
 void print_triangle(int size)
 {
-	int linenum;
-	int linelen;
+	int hash, index;
 
-	for (linenum = 1; linenum <= size; ++linenum)
+	if (size > 0)
 	{
-		for (linelen = size; linelen > linenum; --linelen)
-			_putchar(' ');
-		for ( ; linelen > 0; --linelen)
-			_putchar('#');
-		_putchar('\n');
+		for (hash = 1; hash <= size; hash++)
+		{
+			for (index = size - hash; index > 0; index--)
+				_putchar(' ');
+
+			for (index = 0; index < hash; index++)
+				_putchar('#');
+
+			if (hash == size)
+				continue;
+
+			_putchar('\n');
+		}
 	}
 
-	if (size <= 0)
-		_putchar('\n');
+	_putchar('\n');
 }
 
