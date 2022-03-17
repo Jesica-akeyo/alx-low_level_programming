@@ -10,3 +10,4 @@
 9-fizz_buzz.c - prints numbers 1 to 100, Fizz for multiples of 3, Buzz for multiples of 5, FizzBuzz for multiples of both 3 and 5
 10-print_triangle.c - prints a triangle using #
 100-prime_factor.c - prints the largest prime factor of the number 612852475143
+101-print_number.c - prints an integer
