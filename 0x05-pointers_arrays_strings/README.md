@@ -8,3 +8,4 @@ function that swaps the values of two integers
 6-puts2.c - prints every other character of a string staring with the first character
 7-puts_half.c - function that prints half of a function
 8-print_array.c - function that prints n elements of an array of integers
+9-strcpy.c - function that copies the string pointed to by src,including the terminating null byte, to the buffer pointed to bt dest
