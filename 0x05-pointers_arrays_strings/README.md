@@ -6,3 +6,4 @@ function that swaps the values of two integers
 5-rev_string.c - function that reverses a string
 5-rev_string.c - function that reverses a string
 6-puts2.c - prints every other character of a string staring with the first character
+7-puts_half.c - function that prints half of a function
