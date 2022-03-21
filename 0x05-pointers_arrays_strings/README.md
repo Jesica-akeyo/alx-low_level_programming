@@ -4,3 +4,4 @@ function that swaps the values of two integers
 3-puts.c - function that prints a string to stdout
 4-print_rev.c - function that prints a string in reverse
 5-rev_string.c - function that reverses a string
+5-rev_string.c - function that reverses a string
