@@ -11,20 +11,17 @@ char *rot13(char *s)
 {
 	int i, j;
 
-	char *s1 = "abcdefghijklmABCDEFGHIJKLM";
-	char *s2 = "nopqrstuvwxyzNOPQRSTUVWXYZ";
+	char a[] = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
+	char b[] = "NOPQRSTUVWXYZABCDEFGHIJKLMnopqrstuvwxyzabcdefghijklm";
 
 	for (i = 0; s[i] != '\0'; i++)
 	{
-		for (j = 0; s1[j] != '\0'; j++)
+		for (j = 0; a[j] != '\0'; j++)
 		{
-			if (s[i] == s1[j])
+			if (s[i] == a[j])
 			{
-				s[i] = s2[j];
-			}
-			else if (s[i] == s2[j])
-			{
-				s[i] = s1[j];
+				s[i] = b[j];
+				break;
 			}
 		}
 	}
