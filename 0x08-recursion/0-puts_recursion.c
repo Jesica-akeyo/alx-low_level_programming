@@ -1,9 +1,10 @@
 #include "main.h"
 
 /**
- * _puts_recursion - provides similar function as puts
- * @s: character input
- * Return: void
+ * _puts_recursion - functions similarlys as puts
+ * @s: string
+ *
+ * Return: nothing
  */
 
 void _puts_recursion(char *s)
@@ -13,6 +14,7 @@ void _puts_recursion(char *s)
 		_putchar('\n');
 		return;
 	}
+
 	_putchar(*s);
 	s++;
 	_puts_recursion(s);
