@@ -4,3 +4,4 @@
 3-factorial.c - A function that returns the factorial of a given number
 4-pow_recursion.c - A function that returns the value of x raised to the power of y
 5-sqrt_recursion.c - A function that returns the natural squareroot of a number 
+6-is_prime_number.c - A function that returns 1 if the input integer is a prime number, 0 otherwise
