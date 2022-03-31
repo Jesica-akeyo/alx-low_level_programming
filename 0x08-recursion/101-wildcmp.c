@@ -1,5 +1,6 @@
 #include "main.h"
 
+int recursive_check(char *s1, char *s2, int wildC);
 /**
  * wildcmp - compares two strings, supports wildcard '*'
  *
