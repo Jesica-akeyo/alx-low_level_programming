@@ -2,3 +2,4 @@
 1-strdup.c - A function that returnsa pointer to a newly allocated space in memory, which contains a copy of te string given as a parameter
 2-str_concat.c - A function that concatenates two strings
 3-alloc_grid.c - A function that returns a pointer to a 2 dimensional array of integers
+4-free_grid.c - A function that frees a 2 dimensional grid previously created by alloc_grid function
