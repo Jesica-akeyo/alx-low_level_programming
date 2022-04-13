@@ -1,4 +1,5 @@
 #include "function_pointers.h"
+#include <stdio.h>
 
 /**
  * array_iterator - maps an array through a function pointer
@@ -17,6 +18,6 @@ void array_iterator(int *array, size_t size, void (*action)(int))
 
 	for (i = 0; i < size; i++)
 	{
-		action(array[]);
+		action(array[i]);
 	}
 }
