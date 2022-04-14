@@ -12,7 +12,7 @@ void print_all(const char * const format, ...)
 {
 	va_list mylist;
 	int n = 0, i = 0;
-	char *sep = ", ";
+	char *sep =  ", ";
 	char *str;
 
 	va_start(mylist, format);
@@ -38,7 +38,7 @@ void print_all(const char * const format, ...)
 				str = va_arg(mylist, char *);
 				if (str == NULL)
 					str = "(nil)";
-				printf("%s%s", str, sep);
+				printf("%s", str);
 				break;
 		}
 		n++;
