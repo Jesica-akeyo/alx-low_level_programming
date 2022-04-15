@@ -11,7 +11,7 @@
 void print_all(const char * const format, ...)
 {
 	va_list mylist;
-	int n = 0, i = 0;
+	int i = 0, n = 0;
 	char *sep =  ", ";
 	char *str;
 
@@ -36,7 +36,7 @@ void print_all(const char * const format, ...)
 				break;
 			case 's':
 				str = va_arg(mylist, char *);
-				if (str == NULL)
+				if (!str)
 					str = "(nil)";
 				printf("%s", str);
 				break;
