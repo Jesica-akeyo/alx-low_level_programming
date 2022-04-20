@@ -8,6 +8,7 @@ unsigned int _strspn(char *s, char *accept);
 char *_strpbrk(char *s, char *accept);
 char *_strstr(char *haystack, char *needle);
 <<<<<<< HEAD
+<<<<<<< HEAD
 void print_chessboard(char (a*)[8]);
 void print_diagsums(int *a, int size);
 void set_string(char **s, char *to);
@@ -17,6 +18,12 @@ void print_diagsums(int *a, int size);
 void set_string(char **s, char *to);
 int _putchar(char c);
 >>>>>>> 47866c651cdf1bf15a66ee21993171a80c32c9ba
+=======
+void print_chessboard(char (*a)[8]);
+void print_diagsums(int *a, int size);
+void set_string(char **s, char *to);
+int _putchar(char c);
+>>>>>>> a3b9aa5692fea82ea4ed397d568fd8fefe89cb81
 
 #endif
 
