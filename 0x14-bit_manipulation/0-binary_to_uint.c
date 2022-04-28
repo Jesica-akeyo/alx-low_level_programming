@@ -6,7 +6,7 @@
  * Return: 0 if b = NULL
  * 0 if there is chars in the string b that is not 0 or 1
  */
-unsigned in binary_to_uint(const char *b)
+unsigned int binary_to_uint(const char *b)
 {
 	unsigned int uint = 0, a = 0;
 
